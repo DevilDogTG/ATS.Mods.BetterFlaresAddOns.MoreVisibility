@@ -1,0 +1,14 @@
+[orange]TODO: Mod Display Name
+
+[normal]TODO: one or two sentence summary of what this mod does.
+--------------------
+[orange]What this changes:
+[normal]- TODO
+--------------------
+[orange]What this does NOT change:
+[normal]- TODO
+--------------------
+[green]Changelogs
+
+[orange]v0.1.0
+[normal]- Initial release
