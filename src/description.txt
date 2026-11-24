@@ -1,14 +1,48 @@
-[orange]TODO: Mod Display Name
+[orange]DriveDogs: Better Flares More Visibility (7500K LED)
 
-[normal]TODO: one or two sentence summary of what this mod does.
+[normal]An American Truck Simulator add-on for Better Flares v4.9 - Headlights.2 7500K LED. Your truck's
+headlights spread wider and the low and high beams reach farther for more comfortable night driving, and the
+headlamp glow stays readable in bad daytime conditions (rain, fog, overcast) - while keeping Better Flares'
+realistic mood. The ATS twin of the ETS2 mod of the same name (2.1.0).
 --------------------
-[orange]What this changes:
-[normal]- TODO
---------------------
-[orange]What this does NOT change:
-[normal]- TODO
---------------------
-[green]Changelogs
+[orange]What changes
+[normal]- Wider beams: every truck headlight stage (low, high, front and roof lamps) spreads 103
+  degrees instead of 90, so road shoulders and curves are better lit.
+- Longer, brighter low beam: reaches 220 instead of 140 and is 30% brighter, so the road stays
+  visible at dusk. The cutoff line is sharper (the glow above it fades out faster), and its left
+  side is raised to the right side's level, so the left of the road is lit farther ahead.
+- Longer high beam: reaches 320 instead of 240; the front lamps reach 350 instead of 260.
+- More visible headlamps: the glow of the lamp itself is a little larger and stays visible from
+  wider angles, so trucks read better in poor daylight.
 
-[orange]v0.1.0
-[normal]- Initial release
+What does NOT change:
+- High beam and aux lamp brightness, roof lamp reach, and the light just ahead of the bumper: Better Flares
+  v4.9's own values are kept.
+- Beam aim and beam pattern: your Better Flares Headlights.1 choice (any of them) is kept;
+  only its low-beam cutoff is sharpened and its left side raised.
+- Light color temperature (7500K LED).
+- Tail lights, indicators, side markers and all other lights.
+
+Works on every ATS 1.62 truck: Better Flares Headlights.1 covers all 19.
+--------------------
+[orange]Requirements / load order
+[normal]Top = highest priority in Mod Manager:
+1. DriveDogs: Better Flares City Lights (optional)
+2. DriveDogs: Better Flares More Visibility (7500K LED)   <- this mod
+3. Better Flares - Traffic Addon (ATS) (optional)
+4. Better Flares - Headlights.2 7500K LED
+5. Better Flares - Headlights.1 (any one)
+6. Better Flares - City Lights Addon (optional)
+7. Better Flares - Base
+
+Only for Better Flares v4.9 and American Truck Simulator 1.62. Headlights.1 and Headlights.2 are both
+required. This mod replaces Headlights.2's beam values, so loaded above another Headlights.2 colour it
+still gives 7500K light. The headlamp glow change may also apply to other vehicles that use Better
+Flares' headlight glow, such as AI traffic.
+
+Better Flares is by Avelium. The sharpened low-beam masks are modified Better Flares textures.
+--------------------
+[orange]Changelog
+[normal]1.0.0 - First release for ATS, with the ETS2 2.1.0 values: wider beams (103 degrees), low beam
+220 and 30% brighter with a sharper cutoff and its left side raised, high beam 320, front lamps 350,
+larger headlamp glow.
